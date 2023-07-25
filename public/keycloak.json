@@ -1,8 +1,9 @@
 {
-  "realm": "bookshop",
-  "auth-server-url": "http://localhost:8080/",
+  "realm": "widergy-directory",
+  "auth-server-url": "http://localhost:8080",
   "ssl-required": "external",
-  "resource": "bookBox",
+  "resource": "prueba-identity-broker",
   "public-client": true,
-  "confidential-port": 0
+  "confidential-port": 0,
+  "clientId": "prueba-identity-broker"
 }
